@@ -6,3 +6,6 @@ if(n1>n2){
     console.log("second line")
 }
 else console.log("n2 is greater")
+
+let a = [1,3,4,5]
+console.log(a)
