@@ -1,0 +1,8 @@
+//Data Types in JS
+1. Primitive : Number , String , Boolean , Undefinded , Null
+2. Object : Array , Map , Function , Set
+
+// Var , let , const
+Var : Can be reassigned , redeclared . Legacy , global scope
+Let : Can be reassigned not redeclared . Used mostly . Scope is within the block
+Const : No reassigned , no redeclaration . Cosnt value
