@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "selenium-webdriver": "^4.27.0",
+    "typescript": "^5.7.2",
     "webdriverio": "^9.4.5"
   },
   "devDependencies": {
