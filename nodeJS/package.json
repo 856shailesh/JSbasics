@@ -1,0 +1,18 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "demo project to learn js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shailesh kumar",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0",
+    "webdriverio": "^9.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
