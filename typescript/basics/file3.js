@@ -1,10 +1,11 @@
-var a2 = 4;
+"use strict";
+let a2 = 4;
 console.log(a2);
-var a3 = 67;
+let a3 = 67;
 a3 = "Shailesh";
 a3 = true;
 console.log(a3);
-var a5 = true;
+let a5 = true;
 function f1() {
     return "Shailesh";
 }
