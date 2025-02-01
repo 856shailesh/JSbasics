@@ -1,10 +1,7 @@
-function outerFunction() {
-    let count = 0;
-    return function innerFunction() {
-        count++;
-        console.log(`Count : ${count}`)
-    }
+let firstName = "Shailesh";
+function sum(a, b) {
+    return a + b;
 }
-const counter = outerFunction();
-counter();
-counter();
+
+//module.exports = { firstName, sum }
+export {sum}
