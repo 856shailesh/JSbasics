@@ -17,8 +17,8 @@ console.log("End");
 
 //const req = fetch("https://google.com").then(res => console.log(res))
 
-async function getGoogle() {
-    const req = await fetch("https://google.com");
+export default function getGoogle() {
+    const req = fetch("https://google.com");
     console.log("Done", req)
 }
 getGoogle()

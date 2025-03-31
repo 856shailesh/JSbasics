@@ -30,6 +30,10 @@ console.log("Reduce is ", reduce)
 //console.log(x);
 let x = 10;
 console.log(x);
+
+callback function : a function which is passed as an argument to another funciton and is executed after some operations.
+Hoisting : way in which we use the varialbe even beofre initialising it. 
+var support it , let & const don't support this
 */
 
 function outerFunction() {

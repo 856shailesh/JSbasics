@@ -1,0 +1,61 @@
+API : Application programming interface , way of communicating with 2 applications/software
+set of rules that allow different application to communicate with each other
+can use TCP , OS level , return various formats
+
+Webservice : The API which use network protocol like http/s are called webservice .
+All WS are api , but vice versa not true. mostly JSON , XML
+
+Private API : not exposed to public , require token to access
+Public ApI : can be accessed publically , e.g Google Maps API
+
+API Gateway : application that manages , secures , redirect , load balance API Requests
+
+Caching : DB layer between server and DB , increase response time and save cost sometimes.
+
+REST API : Representational State Transfer
+It's a webservice that follows REST Principles to communicate with other applications using HTTP methods.
+1. Stateless : 
+Principles 1. Proper Codes
+2. HATEOS (Self explained)
+3. versioning , Pagination , Query Parameters.
+
+CRUD Operations : Create Post , Read GET , Update PUt , patch , delete
+Safe : GET , Header , Options
+Cachebale : Get , Head
+Idempotent : GET , Head , Put , delete , Options
+
+head call : return all the headers only 
+Options : what all options are avaialbel on the API endpiont.
+
+json : application/json
+form ruled : only 2-3 key value pair
+binary : one file at a time
+none ; no body
+
+Stateless : have to provide sesssion ID with each request , slower ,heavier , Each request is independent
+e.g Selenium , HTTP , DNS
+
+Statefull : establish conenection once , faster , lighter , maintain session data
+e.g Playwright , SSH , FTP
+
+Curl : curl -H : header -X : type
+URI , URL , URN
+URI : indicator , unique , but can't exactly identiy
+URL : kind of URI ,  cand directly point to resource.
+URN : subset of URI , 
+
+http : protocol
+www : subdomain
+google : domain
+www.google.com : Host
+8080 : port 
+/resource : endpoint , path Parameters
+?param1 : query parameter 
+#section1 : section
+
+Variables in Postman 
+Local : wihtint the script
+data : data through file
+Env : QA , DEV , dropdown
+Collection : applicable through whoel collecetion
+Global : Throughout postman.
